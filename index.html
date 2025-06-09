@@ -4,26 +4,35 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Thabani Nyagura | Data Science Portfolio</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
     body {
-      font-family: Arial, sans-serif;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
       margin: 0;
       padding: 0;
-      background-color: #f4f4f4;
-      color: #333;
+      background-color: #121212;
+      color: #e0e0e0;
     }
     header {
-      background-color: #007acc;
+      background-color: #1f1f1f;
       color: #fff;
-      padding: 20px 0;
+      padding: 40px 0;
       text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-top: 10px;
     }
     section {
       padding: 40px;
       max-width: 900px;
       margin: auto;
-      background-color: #fff;
+      background-color: #1e1e1e;
       margin-bottom: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
     }
     h1, h2 {
       margin-top: 0;
@@ -31,18 +40,31 @@
     .project {
       margin-bottom: 20px;
     }
+    .project a {
+      display: inline-block;
+      margin-top: 8px;
+      color: #90caf9;
+    }
     footer {
       text-align: center;
       padding: 20px;
-      background-color: #333;
-      color: #fff;
+      background-color: #1f1f1f;
+      color: #999;
     }
     a {
-      color: #007acc;
+      color: #90caf9;
       text-decoration: none;
     }
     a:hover {
       text-decoration: underline;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    .social-icons a {
+      margin: 0 10px;
+      color: #90caf9;
+      font-size: 24px;
     }
   </style>
 </head>
@@ -51,6 +73,7 @@
 <header>
   <h1>Thabani Nyagura</h1>
   <p>Medical Doctor | Data Scientist | Business Strategist</p>
+  <img src="profile.jpg" alt="Thabani Nyagura">
 </header>
 
 <section>
@@ -63,14 +86,17 @@
   <div class="project">
     <h3>Heart Failure Prediction Using Machine Learning</h3>
     <p>Built classification models (Logistic Regression, SVM, Random Forest, XGBoost) and used SHAP/LIME for interpretability to predict risk of heart failure from clinical data.</p>
+    <a href="#">View Project</a>
   </div>
   <div class="project">
     <h3>Sudden Cardiac Death Analysis</h3>
     <p>Performed statistical and ML analysis using the MUSIC dataset to investigate predictors of sudden cardiac death, focusing on risk stratification and model accuracy.</p>
+    <a href="#">View Project</a>
   </div>
   <div class="project">
     <h3>Healthcare Infrastructure Mapping in Cape Town</h3>
     <p>Utilized spatial data infrastructures to analyze population-healthcare access gaps for public health planning.</p>
+    <a href="#">View Project</a>
   </div>
 </section>
 
@@ -88,6 +114,11 @@
   <h2>Contact</h2>
   <p>Email: <a href="mailto:t.j.nyagura@gmail.com">t.j.nyagura@gmail.com</a></p>
   <p>LinkedIn: <a href="https://www.linkedin.com/in/thabaninyagura" target="_blank">linkedin.com/in/thabaninyagura</a></p>
+  <div class="social-icons">
+    <a href="https://www.linkedin.com/in/thabaninyagura" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="https://github.com/thabaninyagura" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://twitter.com/thabaninyagura" target="_blank"><i class="fab fa-twitter"></i></a>
+  </div>
 </section>
 
 <footer>
